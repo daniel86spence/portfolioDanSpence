@@ -78,6 +78,7 @@ header h4 {
 }
 
 #about {
+    display: ;
     width: 100%;
     height: 90%;
     background-image: url(./backgrounds/about.jpg);
@@ -85,3 +86,35 @@ header h4 {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#projects h2 {
+    font-family: Barlow_light;
+    color: aliceblue;
+    padding-top: 7%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 17%;
+    text-align: left;
+    font-size: 4rem;
+}
+
+#projects p {
+    font-family: Barlow_light;
+    color: aliceblue;
+    width: 60%;
+    margin-top: 1%;
+    margin-left: 17%;
+    text-align: justify;
+    font-size: 2rem;
+}
+
+#projects {
+    display: none;
+    width: 100%;
+    height: 90%;
+    background-image: url(./backgrounds/projects.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
