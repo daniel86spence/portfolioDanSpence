@@ -18,42 +18,24 @@
     src: url(./fonts/BarlowSemiCondensed-MediumItalic.ttf);
 }
 
-html,
-body {
+body, html {
     font-size: 16px;
     width: 100%;
+    height: 100%;
     font-family: Barlow_medium;
-    margin: 0px 0px;
-}
-
-.banner {
-    background-image: url(./images/chevy.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    color: black;
-    margin: 0px auto;
-}
-
-.title {
-    text-align: left;
-    font-size: 4rem;
-    padding-top: 140px;
-    padding-left: 10%;
+    margin: 0px;
 }
 
 header {
     width: 100%;
+    height: 10%;
     display: flex;
-    position: fixed;
-    margin: 0px auto;
+    margin: auto;
     background-color: black;
     color: aliceblue;
 }
 
-ul {
+nav, ul {
     margin: 0px;
     width: 100%;
 }
@@ -61,7 +43,45 @@ ul {
 li {
     display: inline-block;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-right: 30px;
     font-size: 1.3rem;
+}
+
+header h4 {
+    font-weight: lighter;
+    width: 130px;
+    padding: 20px 20px 20px 0px;
+    font-size: 1.3rem;
+    margin: 0px;
+}
+
+#about h2 {
+    font-family: Barlow_light;
+    color: aliceblue;
+    padding-top: 7%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 17%;
+    text-align: left;
+    font-size: 4rem;
+}
+
+#about p {
+    font-family: Barlow_light;
+    color: aliceblue;
+    width: 60%;
+    margin-top: 1%;
+    margin-left: 17%;
+    text-align: justify;
+    font-size: 2rem;
+}
+
+#about {
+    width: 100%;
+    height: 90%;
+    background-image: url(./backgrounds/about.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
