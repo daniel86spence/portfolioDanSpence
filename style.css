@@ -50,7 +50,7 @@ li {
 }
 
 li:hover {
-    color: rgb(92, 27, 92);
+    color: rgb(48, 74, 219);
 }
 
 header h4 {
@@ -64,10 +64,10 @@ header h4 {
 #about h2 {
     font-family: Barlow_light;
     color: aliceblue;
-    padding-top: 7%;
+    padding-top: 4%;
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 17%;
+    margin-left: 13%;
     text-align: left;
     font-size: 4rem;
 }
@@ -75,11 +75,11 @@ header h4 {
 #about p {
     font-family: Barlow_light;
     color: aliceblue;
-    width: 60%;
+    width: 75%;
     margin-top: 1%;
-    margin-left: 17%;
+    margin-left: 13%;
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 #about {
@@ -95,10 +95,10 @@ header h4 {
 #projects h2 {
     font-family: Barlow_light;
     color: aliceblue;
-    padding-top: 7%;
+    padding-top: 4%;
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 17%;
+    margin-left: 13%;
     text-align: left;
     font-size: 4rem;
 }
@@ -106,9 +106,9 @@ header h4 {
 #projects p {
     font-family: Barlow_light;
     color: aliceblue;
-    width: 60%;
+    width: 75%;
     margin-top: 1%;
-    margin-left: 17%;
+    margin-left: 13%;
     text-align: justify;
     font-size: 2rem;
 }
@@ -126,10 +126,10 @@ header h4 {
 #contact h2 {
     font-family: Barlow_light;
     color: aliceblue;
-    padding-top: 7%;
+    padding-top: 4%;
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 17%;
+    margin-left: 13%;
     text-align: left;
     font-size: 4rem;
 }
@@ -137,9 +137,9 @@ header h4 {
 #contact p {
     font-family: Barlow_light;
     color: aliceblue;
-    width: 60%;
+    width: 75%;
     margin-top: 1%;
-    margin-left: 17%;
+    margin-left: 13%;
     text-align: justify;
     font-size: 2rem;
 }
